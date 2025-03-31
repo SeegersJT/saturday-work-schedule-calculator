@@ -29,6 +29,7 @@ sheet.columns = [
 sheet.addRows(schedule);
 
 // Save the Excel file
-const outputPath = './output/schedule.xlsx';
+const timestamp = dayjs().format('YYYY-MM-DD_HH-mm-ss');
+const outputPath = `./output/schedule_${timestamp}.xlsx`;
 await workbook.xlsx.writeFile(outputPath);
 console.log(`Excel file generated: ${outputPath}`);
