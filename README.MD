@@ -10,7 +10,7 @@ This Node.js project generates an Excel file for a rotating Saturday work schedu
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/SeegersJT/saturday-work-schedule-calculator.git
    cd saturday-work-schedule
    ```
 2. Install dependencies:
