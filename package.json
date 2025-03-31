@@ -1,0 +1,18 @@
+{
+  "name": "saturday-work-schedule",
+  "version": "1.0.0",
+  "description": "A Node.js tool to generate an Excel schedule for rotating Saturday work shifts.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "generate": "node src/index.js"
+  },
+  "keywords": ["schedule", "excel", "rotation", "work"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "exceljs": "^4.4.0",
+    "jsonc-parser": "^3.3.1"
+  }
+}

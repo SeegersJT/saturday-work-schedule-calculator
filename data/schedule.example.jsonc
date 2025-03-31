@@ -1,0 +1,16 @@
+{
+    // List of names in rotation order
+    "names": [
+        "Person A",
+        "Person B + Person C",
+        "Person D",
+        "Person E + Person F",
+        "Person G + Person H"
+    ],
+
+    // Start date of the schedule (YYYY-MM-DD)
+    "startDate": "2025-01-01",
+
+    // End date of the schedule (YYYY-MM-DD)
+    "endDate": "2025-12-31"
+}
